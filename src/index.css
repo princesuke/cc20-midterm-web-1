@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* @custom-variant dark (&:is(.dark *)); */
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-primary-color {
+  background-color: rgb(13, 37, 63);
+}
+.primary-color {
+  color: rgb(13, 37, 63);
+}
+
+.bg-secondary-color {
+  background-color: rgb(1, 180, 228);
+}
+.secondary-color {
+  color: rgb(1, 180, 228);
+}
+
+.bg-tertiary-color {
+  background-color: rgb(144, 206, 161);
+}
+.tertiary-color {
+  color: rgb(144, 206, 161);
+}
