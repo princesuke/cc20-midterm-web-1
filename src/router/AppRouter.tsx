@@ -13,7 +13,8 @@ import SearchPage from "@/page/searchpage/SearchPage";
 export default function AppRouter() {
   return (
     <>
-      <BrowserRouter basename="/front-cc20-exam">
+      {/* <BrowserRouter basename="/front-cc20-exam"> */}
+      <BrowserRouter>
         <Routes>
           <Route
             path="/"
