@@ -20,4 +20,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/cc20-midterm-web",
 });

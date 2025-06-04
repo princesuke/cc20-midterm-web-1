@@ -26,12 +26,6 @@ export default function Navbar() {
         <div className="w-[80px] hover:cursor-pointer hover:opacity-80" onClick={navigateToHome}>
           <img src={nav_logo} alt="navLogo" />
         </div>
-        {/* <Button
-          onClick={() => navigate("/movie/search")}
-          className=" w-[120px] text-xl hover:cursor-pointer hover:opacity-80 bg-secondary-color text-white"
-        >
-          Search
-        </Button> */}
       </div>
       <div className="text-3xl flex gap-4">
         <Button
